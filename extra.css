@@ -1,0 +1,63 @@
+@import 'https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,700|family=IBM+Plex+Mono:400,700|family=IBM+Plex+Sans:400,700';
+
+
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 700;
+}
+
+.page-header{
+  min-height: unset;
+}
+
+.template-home .page-header{
+  min-height: unset;
+}
+
+h2,h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+}
+
+pre, code {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.75rem;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.navbar {
+  font-size: 1.0rem;
+}
+
+h4.author,h4.date {
+  padding-top:0px;
+  margin-top:0px;}
+
+.display{
+  font-size: 0.85rem;
+}
+
+.dropdown-header{
+  font-weight: 700;
+  color: #333;
+}
+
+.row > main {
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+  main + .col-md-3 {
+    margin-left: unset;
+    padding-left: 5rem;
+    max-width: 75%;
+  }
+}
